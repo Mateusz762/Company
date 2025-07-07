@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins' sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(rgba(0,0,0,0.7)rgba(0,0,0,0.7),url(img/corpo.jpg));
+}
+:root{
+    --text-color: hsl(220, 8%, 10%);
+    --bg-color: hsl(0, 0% 100%);
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-thumb{
+    background: transparent;
+}
+html::-webkit-scrollbar-track{
+    background: var(--text-color);
+    border-radius: 5rem;
+}
+section{
+    padding: 50px, 100px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    transition: 0.5s;
+    background: #6495ED;
+}
+.logo{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--bg-color);
+}
+.navbar{
+    display: flex;
+    column-gap: 5rem;
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--bg-color);
+}
