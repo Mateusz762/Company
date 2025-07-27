@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corporation</title>
 </head>
@@ -15,10 +15,35 @@
 
     <ul class="navbar">
         <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-        <li><a href="#">Company</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#"><i class="fa-solid fa-briefcase"></i>Company</a></li>
+        <li><a href="#"><i class="fa-solid fa-circle-info"></i>About us</a></li>
+        <li><a href="#"><i class="fa-solid fa-phone"></i>Contact</a></li>
     </ul>
   </header>
+  <section class="home swiper" id="home">
+     <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide container">Slide 1
+        <!--<img src="img/cyber security.jpg" alt="">-->
+          <div class="home-text">
+            <span>About us</span>
+            <h3>Join to us and see how we work</h3>
+            <a href="#" class="btn">Click here</a>
+          </div>
+      </div>
+      <div class="swiper-slide container">Slide2 
+        <img src="img/IT.jpg" alt="">
+      </div>
+      <div class="swiper-slide container">Slide 3
+        <img src="img/IT2.jpg" alt="">
+      </div>
+      <div class="swiper-slide container">Slide 4
+        <img src="img/team.jpg" alt="">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
